@@ -26,3 +26,11 @@ Windows Command Prompt Cheatsheet for Python Development
 `venv\Scripts\deactivate`: Deactivates the virtual enviroment.
 
 `pip install -r /path/requirements.txt`: Installs recommended versions into the virtual environment.
+
+### Creating venv in jupyter notebook
+
+`pip install ipykernel`: Let us create new kernels for jupyter notebook.
+
+`ipython kernel install --user --name=venvkernel`: Creates kernel named venvkernel.
+
+`pip freeze`: Shows information about each package.
