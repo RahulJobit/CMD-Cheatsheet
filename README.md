@@ -1,6 +1,15 @@
-
 # CMD Cheatsheet
 Windows Command Prompt Cheatsheet for Python Development
+
+### General commands
+
+`cls`: Clears the screen.
+
+`mkdir`:Opens a folder in a current directory.
+
+`echo >>`: Creates file in a current directory or folder.
+
+`del /f fileName`: Deletes the file named fileName.
 
 ### Navigating between directories and directory commands
 
@@ -35,3 +44,21 @@ Windows Command Prompt Cheatsheet for Python Development
 `ipython kernel install --user --name=venvkernel`: Creates kernel named venvkernel.
 
 `pip freeze`: Shows information about each package.
+
+### Git commands
+
+`git init`: Initializing empty git repository.
+
+`git add .`: All changes are added to git.
+
+`git status`: Gives information about the current status of the project files. Shows files whose status has been changed.
+
+`git commit -m "first commit"`: Ready for commit. ("information about commit in here")
+
+`git branch branchName`: Opens a new branch called branchName.
+
+`git checkout`: Allow transition between branches.
+
+`git push -u origin branchName`: Pushes changes into branch branchName.
+
+`echo #Readme > README.md`: Gives markdown title (Readme) for README.md
