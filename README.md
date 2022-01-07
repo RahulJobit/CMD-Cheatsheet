@@ -33,6 +33,8 @@ Windows Command Prompt Cheatsheet for Python Development
 
 `venv\Scripts\activate`: Activates the virtual enviroment.
 
+`pip list`: All of the python packages that is currently installed in the enviroment. 
+
 `venv\Scripts\deactivate`: Deactivates the virtual enviroment.
 
 `pip install -r /path/requirements.txt`: Installs recommended versions into the virtual environment.
