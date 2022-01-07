@@ -35,6 +35,8 @@ Windows Command Prompt Cheatsheet for Python Development
 
 `pip list`: All of the python packages that is currently installed in the enviroment. 
 
+If the virtual environment is newly created it should contain only **pip** and **setuptools**. If there are other packages, it means that the virtual environment could not be created correctly.
+
 `venv\Scripts\deactivate`: Deactivates the virtual enviroment.
 
 `pip install -r /path/requirements.txt`: Installs recommended versions into the virtual environment.
