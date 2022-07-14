@@ -47,7 +47,7 @@ If the virtual environment is newly created it should contain only **pip** and *
 
 `ipython kernel install --user --name=venvkernel`: Creates kernel named venvkernel.
 
-`pip freeze`: Shows information about each package.
+`pip freeze`: Shows information about each package. With > requirements.txt automatically creates a text file. 
 
 ### Git commands
 
